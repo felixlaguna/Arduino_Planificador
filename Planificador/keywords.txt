@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map For Planificador
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Planificador	KEYWORD1
+Tarea			KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+getPeriodo 		KEYWORD2
+bucle			KEYWORD2
+addTask			KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
