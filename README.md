@@ -8,9 +8,6 @@ First include the library with
 ```c
 #include "Planificador.h"
 ```
-```c
-
-```
 Then, outside of any function create a variable such as:
 ```c
 Planificador p;
