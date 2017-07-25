@@ -29,6 +29,20 @@ class task1: public Tarea {
       bool flag;
     };
 ```
+If all you code can me condensed into a function with no arguments, you can use the macro "creaTarea(function,task_name)"
+for achieving the same effect, for example:
+```c
+creaTarea(function,t1);
+```
+Turns into:
+```c
+class:public Tarea{
+    public:
+        void ejecutar() override {
+            function();
+        }
+} variable;
+```
 Then, in "setup()" instantiate the task, set its period and add it to the scheduler.
 ```c
 void setup() {
