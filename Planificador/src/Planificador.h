@@ -20,6 +20,13 @@
 */
 #ifndef Planificador_h
 #define Planificador_h
+#define creaTarea(funcion, variable)\
+   class : public Tarea {      \
+    public:                         \
+      void ejecutar() override {    \
+        funcion();                  \
+      }                             \
+    } variable;
 class Tarea{
   public:
     virtual void ejecutar(){};
