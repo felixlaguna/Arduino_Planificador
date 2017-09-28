@@ -29,7 +29,7 @@ class task1: public Tarea {
       bool flag;
     };
 ```
-If all you code can me condensed into a function with no arguments, you can use the macro "creaTarea(function,task_name)"
+If all your code can be condensed into a function with no arguments, you can use the macro "creaTarea(function,task_name)"
 for achieving the same effect, for example:
 ```c
 creaTarea(function,t1);
