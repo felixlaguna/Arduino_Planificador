@@ -7,15 +7,15 @@
 #######################################
 
 Planificador	KEYWORD1
-Tarea			KEYWORD1
+Tarea	KEYWORD1
 
 
 #######################################
 # Methods and Functions (KEYWORD2)
 #######################################
-getPeriodo 		KEYWORD2
-bucle			KEYWORD2
-addTask			KEYWORD2
+getPeriodo 	KEYWORD2
+bucle	KEYWORD2
+addTask	KEYWORD2
 
 
 #######################################
